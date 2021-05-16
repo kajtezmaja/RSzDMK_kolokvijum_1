@@ -13,12 +13,17 @@
 #include "../tajmer0_biblioteka/tajmer0_biblioteka.c"
 #include "../util_biblioteka/util_biblioteka.c"
 
+/**
+* main - funkcija koja implementiran glavni deo aplikacije
+* @return Nema povratnu vrednost
+*/
 int main()
 {
 	int16_t duzina;
 	int16_t niz[64];
 	int16_t str[64];
 	int8_t rez;
+	// Inicijalizacija
 	usartInit(9600);
 
 	// Glavna petlja
